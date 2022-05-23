@@ -1,0 +1,62 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(img/fone.jpg);
+    background-repeat: repeat;
+    background-color: gray;
+}
+
+#title {
+    text-decoration: none;
+    color: azure;
+}
+
+.hello {
+    font-family:cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+
+.about {
+    color: azure;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* position: static; */
+    position: inherit;
+}
+
+.skill {
+    color: azure;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* position:static; */
+}
+
+.contacts {
+    color: azure;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* position: static; */
+}
+
+.name {
+    text-align: center;
+    color: azure;
+    margin-top: 100px;
+   
+}
