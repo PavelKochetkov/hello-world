@@ -3,6 +3,9 @@ body {
     background-image: url(img/fone.jpg);
     background-repeat: repeat;
     background-color: gray;
+    max-width: 95%;
+    margin: auto;
+}
 }
 
 #title {
