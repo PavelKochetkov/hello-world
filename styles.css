@@ -1,23 +1,31 @@
-#body {
+#body-fone {
+    
+    /* background-image: url(img/body.jpg); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 150px;
+    
+}
+#body-content {
     font-family:'Courier New', Courier, monospace;
     background-image: url(img/fone.jpg);
     background-repeat: repeat;
     background-color: gray;
-    max-width: 95%;
+    padding-top: 1px;
     margin: auto;
-    background-size: 100%;
-}
+    height:600px;
+    max-width: 100%;
+    opacity: .9;
 }
 
 #title {
     text-decoration: none;
     color: azure;
+    font-family: cursive;
 }
 
 #hello {
-    font-family:cursive;
     text-align: center;
-    text-decoration: none;
 }
 
 #container {
@@ -26,8 +34,7 @@
     display: grid;
     grid-gap: 50px;
     grid-template-columns: auto auto auto;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 #about {
@@ -35,9 +42,8 @@
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
     font-size: 30px;
-    text-align: center;
-    /* position: static; */
-    position: inherit;
+    text-align: center;  
+    
 }
 
 #skill {
@@ -46,7 +52,7 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    /* position:static; */
+    
 }
 
 #contacts {
@@ -55,12 +61,12 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    /* position: static; */
+    
 }
 
 #name {
     text-align: center;
     color: azure;
     margin-top: 100px;
-   
 }
+
