@@ -11,13 +11,13 @@
     color: azure;
 }
 
-.hello {
+#hello {
     font-family:cursive;
     text-align: center;
     text-decoration: none;
 }
 
-.container {
+#container {
     margin-top: 50px;
     text-align: center;
     display: grid;
@@ -27,7 +27,7 @@
     
 }
 
-.about {
+#about {
     color: azure;
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -37,7 +37,7 @@
     position: inherit;
 }
 
-.skill {
+#skill {
     color: azure;
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -46,7 +46,7 @@
     /* position:static; */
 }
 
-.contacts {
+#contacts {
     color: azure;
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -55,7 +55,7 @@
     /* position: static; */
 }
 
-.name {
+#name {
     text-align: center;
     color: azure;
     margin-top: 100px;
