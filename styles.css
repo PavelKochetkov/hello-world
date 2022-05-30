@@ -9,7 +9,8 @@
 #body-content {
     font-family:'Courier New', Courier, monospace;
     background-image: url(img/fone.jpg);
-    background-repeat: repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-color: gray;
     padding-top: 1px;
     margin: auto;
