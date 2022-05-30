@@ -1,40 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
 #body-fone {
     
-    /* background-image: url(img/body.jpg); */
+    background-image: url(img/body.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 150px;
-    
 }
 #body-content {
     font-family:'Courier New', Courier, monospace;
     background-image: url("img/fone.jpg");
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: gray;
     padding-top: 1px;
     margin: auto;
-    height:600px;
-    max-width: 100%;
-    opacity: .9;
+    height: 600px;
+    opacity: .85;
 }
 
 #title {
     text-decoration: none;
     color: azure;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
 }
 
 #hello {
     text-align: center;
 }
 
+
+
 #container {
     margin-top: 50px;
     text-align: center;
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:auto auto auto;
     padding: 10px;   
 }
 
@@ -43,8 +50,8 @@
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
     font-size: 30px;
-    text-align: center;  
-    
+    text-align: center;
+    cursor: pointer;
 }
 
 #skill {
@@ -53,6 +60,7 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    cursor: pointer;
     
 }
 
@@ -62,6 +70,7 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    cursor: pointer;
     
 }
 
@@ -69,5 +78,6 @@
     text-align: center;
     color: azure;
     margin-top: 100px;
+    cursor:default;
 }
 
