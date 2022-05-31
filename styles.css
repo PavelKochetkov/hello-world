@@ -34,8 +34,6 @@ html, body {
     text-align: center;
 }
 
-
-
 #container {
     margin-top: 50px;
     text-align: center;
@@ -81,3 +79,6 @@ html, body {
     cursor:default;
 }
 
+#two {
+    background-color: gray;
+}
