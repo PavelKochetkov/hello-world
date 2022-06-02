@@ -1,4 +1,5 @@
 // var name = document.querySelector('#name')
+
 let about = document.querySelector('#about')
 let skill = document.querySelector('#skill')
 let contacts = document.querySelector('#contacts')
@@ -24,11 +25,17 @@ skill.addEventListener('mouseleave', setColorBorder)
 contacts.addEventListener('mouseenter', setColorBorder)
 contacts.addEventListener('mouseleave', setColorBorder)
 
-about.addEventListener('click', () => {modal.style.display = 'block'})
+about.addEventListener('click', () => {
+    modal.style.display = 'block'
+    header.textContent = about.textContent})
 
-skill.addEventListener('click', () => {modal.style.display = 'block'})
+skill.addEventListener('click', () => {
+    modal.style.display = 'block'
+    header.textContent = skill.textContent})
 
-contacts.addEventListener('click', () => {modal.style.display = 'block'})
+contacts.addEventListener('click', () => {
+    modal.style.display = 'block'
+    header.textContent = contacts.textContent})
 
 span.addEventListener('click', closeModal)
 
