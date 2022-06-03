@@ -1,5 +1,4 @@
-// var name = document.querySelector('#name')
-
+let greetings = document.querySelector('#greetings')
 let about = document.querySelector('#about')
 let skill = document.querySelector('#skill')
 let contacts = document.querySelector('#contacts')
@@ -15,6 +14,8 @@ const setColorBorder = (e) => {
 const closeModal = (e) => {
     if(e.type === 'click') {modal.style.display = 'none'}
 }
+
+setTimeout(() => {greetings.style.display = 'block'}, 1500)
 
 about.addEventListener('mouseenter', setColorBorder)
 about.addEventListener('mouseleave', setColorBorder)

@@ -14,19 +14,19 @@ html, body {
     
     background-image: url(img/body.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 #body-content {
     font-family:'Courier New', Courier, monospace;
-    background-image: url("img/fone.jpg");
-    background-repeat: no-repeat;
+    background-image: url(img/fone.jpg);
+    background-repeat: repeat;
     background-size: 100% 100%;
     background-color: gray;
+    min-height: 100vh;
     padding-top: 1px;
-    margin: auto;
-    height: 600px;
     opacity: .85;
+    margin: auto;
 }
 
 #title {
@@ -56,34 +56,39 @@ html, body {
     font-size: 30px;
     text-align: center;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.150);
+    background-color: rgba(255, 255, 255, 0.062);   
 }
 
 #skill {
     color: azure;
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
+    
     font-size: 30px;
     text-align: center;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.150);
+    background-color: rgba(255, 255, 255, 0.062);  
 }
 
 #contacts {
     color: azure;
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
+    
     font-size: 30px;
     text-align: center;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.150);
+    background-color: rgba(255, 255, 255, 0.062);  
 }
 
-#name {
+#greetings {
     text-align: center;
     color: azure;
     margin-top: 100px;
     cursor:default;
+    display: none;
+    animation-name: animatetop;
+    animation-duration: 1s;
 }
   
 #modal {
