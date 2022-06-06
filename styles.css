@@ -1,22 +1,19 @@
-@media screen and (max-width: 1280px) {
-    body {width: 1200px; margin: auto;}
-}
 
-@media screen and (max-width: 1140px) {
-    body {width: 1200px; margin: auto;}
-}
 
-@media screen and (max-width: 992px) {
-    body {width: 750px; margin: auto;}
-}
 
-@media screen and (max-width: 768px) {
-    body {width: 450px; margin: auto;}
-}
 
-@media screen and (max-width: 480px) {
-    body {width: 320px; margin: auto;}
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 html, body {
