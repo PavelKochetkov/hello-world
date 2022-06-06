@@ -1,13 +1,21 @@
 @media screen and (max-width: 1280px) {
-    div.contentblock {width: 1200px;}
+    body {width: 1200px; margin: auto;}
 }
 
 @media screen and (max-width: 1140px) {
-    div.contentblock {width: 1024px;}
+    body {width: 1200px; margin: auto;}
 }
 
 @media screen and (max-width: 992px) {
-    div.contentblock {width: 970px;}
+    body {width: 750px; margin: auto;}
+}
+
+@media screen and (max-width: 768px) {
+    body {width: 450px; margin: auto;}
+}
+
+@media screen and (max-width: 480px) {
+    body {width: 320px; margin: auto;}
 }
 
 
