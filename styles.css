@@ -22,7 +22,7 @@ html, body {
     font-family:'Courier New', Courier, monospace;
     background-image: url(img/fone.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+/*     background-size: 100% 100%; */
     background-color: gray;
     min-height: 100vh;
     padding-top: 1px;
