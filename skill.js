@@ -3,7 +3,7 @@ function Skill() {
     <div id="skillMore">
         <a href="https://stepik.org/cert/1415848" target="_blank"><img src="img/html5_css3.jpg" id="htmlcss"></img></a>
         <a href="https://www.udemy.com/certificate/UC-d21429ca-ccf5-4e96-aeb0-fb904466c007/" target="_blank"><img src="img/js.jpg" id="js"></img></a>
-        <img src="img/react.jpg" id="react"></img>
+        <img src="img/React.jpg" id="react"></img>
         <div id="skillComment"><h3>Изучаемые технологии на данный момент</h3></div>
         <div id="html1" style = {{display:'none'}}><h3>HTML5/CSS3 (Курс пройден)</h3></div>
         <div id="js1" style = {{display:'none'}}><h3>JavaScript (Курс пройден)</h3></div>
