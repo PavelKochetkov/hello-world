@@ -124,6 +124,7 @@ html, body {
     animation-duration: 1s;
     cursor:default;
     height: 300px;
+    overflow: auto;
 }
   
 @keyframes animatetop {
