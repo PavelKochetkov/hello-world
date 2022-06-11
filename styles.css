@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 
 #line{
@@ -17,8 +18,9 @@ html, body {
     background-image: url(img/body.jpg);
     background-attachment: fixed;
     background-repeat: repeat;
-    /* background-position: center; */
+    background-position: center;
     background-size: 100% 100%;
+    min-height: 100vh;
 }
 
 #body-content {
@@ -51,7 +53,7 @@ html, body {
     display: grid;
     grid-gap: 50px;
     grid-template-columns:auto auto auto;
-    padding: 10px;   
+    padding: 10px;
 }
 
 #about {
@@ -61,14 +63,13 @@ html, body {
     font-size: 30px;
     text-align: center;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.250);  
+    background-color: rgba(0, 0, 0, 0.250);
 }
 
 #skill {
     color: azure;
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
-    
     font-size: 30px;
     text-align: center;
     cursor: pointer;
@@ -79,7 +80,6 @@ html, body {
     color: azure;
     border: 3px solid rgba(255, 255, 255, 0.8);
     padding: 20px;
-    
     font-size: 30px;
     text-align: center;
     cursor: pointer;
@@ -113,7 +113,8 @@ html, body {
 #modal-content {
     font-family: 'Courier New', Courier, monospace;
     position: relative;
-    background-color: #E1BEE7;
+    background-color: rgba(255, 255, 255, 0.678);
+    background-attachment: fixed;
     margin: auto;
     padding: 0;
     border: 3px solid rgb(255, 154, 3);
@@ -121,7 +122,8 @@ html, body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
     animation-duration: 1s;
-    cursor:default
+    cursor:default;
+    height: 300px;
 }
   
 @keyframes animatetop {
@@ -149,7 +151,55 @@ html, body {
     padding: 1px 16px 10px 10px;
     background-color: #8e81db;
     color: white;
-    background-image: url('img/body.jpg');
+    background-image: url(img/body.jpg);
+    opacity: 0.9;
   }
   
-#modal-body {padding: 2px 16px;}
+#modal-body {
+    padding: 2px 16px;
+}
+
+#skillMore {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#htmlcss {
+    width: 140px;
+    height: 100px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    margin: 15px;
+    /* opacity: 0.85; */
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#js {
+    width: 150px;
+    height: 100px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    margin: 15px;
+    /* opacity: 0.80; */
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#react {
+    width: 140px;
+    height: 100px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    margin: 15px;
+    /* opacity: 0.85; */
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+#html1, #js1, #react1 {
+    color: rgb(5, 3, 116)
+}
