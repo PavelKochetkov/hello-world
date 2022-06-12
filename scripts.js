@@ -4,6 +4,8 @@ let skill = document.querySelector('#skill')
 let contacts = document.querySelector('#contacts')
 let span = document.querySelector('#close')
 let header = document.querySelector('#header')
+let aboutFull = document.querySelector('#aboutFull')
+let closeAb = document.querySelector('#closeAbout')
 
 const setColorBorder = (e) => {
     if(e.type === 'mouseenter') {e.target.style.border = '3px solid orange'}
@@ -13,6 +15,13 @@ const setColorBorder = (e) => {
 const closeModal = (e) => {
     if(e.type === 'click') {
         modal.style.display = 'none'
+        greetings.style.display = 'block'
+    }
+}
+
+const closeAbout = (e) =>{
+    if(e.type === 'click'){
+        aboutFull.style.display = 'none'
         greetings.style.display = 'block'
     }
 }
@@ -32,6 +41,7 @@ contacts.addEventListener('mouseleave', setColorBorder)
 skill.addEventListener('click', () => {
     modal.style.display = 'block'
     greetings.style.display = 'none'
+    aboutFull.style.display = 'none'
     header.textContent = skill.textContent}
 )
 
@@ -43,3 +53,10 @@ window.onclick = function(event) {
       greetings.style.display = 'block'
     }
 }
+
+about.addEventListener('click', () => {
+    aboutFull.style.display = 'block'
+    greetings.style.display = 'none'
+})
+
+closeAb.addEventListener('click', closeAbout)

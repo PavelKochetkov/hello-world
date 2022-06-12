@@ -1,8 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    border: none;
-    
+    border: none;  
 }
 
 #line{
@@ -14,7 +13,6 @@ html, body {
 }
 
 #body-fone {
-    
     background-image: url(img/body.jpg);
     background-attachment: fixed;
     background-repeat: repeat;
@@ -48,7 +46,7 @@ html, body {
 }
 
 #container {
-    margin-top: 60px;
+    margin-top: 90px;
     text-align: center;
     display: grid;
     grid-gap: 50px;
@@ -84,6 +82,11 @@ html, body {
     text-align: center;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.250);  
+}
+
+#contacts>a {
+    color:azure;
+    text-decoration: none;
 }
 
 #greetings {
@@ -145,7 +148,7 @@ html, body {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
   
 #modal-header {
     height: 50px;
@@ -154,7 +157,7 @@ html, body {
     color: white;
     background-image: url(img/body.jpg);
     opacity: 0.9;
-  }
+}
   
 #modal-body {
     padding: 2px 16px;
@@ -200,7 +203,55 @@ html, body {
     cursor: pointer;
 }
 
-
 #html1, #js1, #react1 {
     color: rgb(5, 3, 116)
+}
+
+#aboutFull {
+    /* border: 2px solid gold; */
+    margin-top: 100px;
+    background-color: rgba(207, 235, 202, 0);
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: auto;
+    border-radius: 10px;
+    animation-name: animatetop;
+    animation-duration: 2s;
+    display: none;
+    cursor: default;
+    color: white;
+}
+
+#iam {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    box-shadow: 10px 10px 15px rgba(3, 2, 0, 0.514);
+    border: 3px solid rgb(255, 255, 255);
+    float: left;
+}
+
+#aboutFull>h4{
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 18px;
+    text-shadow: 3px 3px 4px rgb(148, 146, 135);
+    color: white;
+}
+
+#closeAbout {
+    color:white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+#closeAbout:hover,
+#closeAbout:focus {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
 }
