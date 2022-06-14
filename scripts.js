@@ -8,8 +8,11 @@ let aboutFull = document.querySelector('#aboutFull')
 let closeAb = document.querySelector('#closeAbout')
 
 const setColorBorder = (e) => {
-    if(e.type === 'mouseenter') {e.target.style.border = '3px solid orange'}
-    else if(e.type === 'mouseleave') {e.target.style.border = '3px solid rgba(255, 255, 255, 0.8)'}
+    if(e.type === 'mouseenter') {e.target.style.border = '3px solid orange', e.target.style.background = 'SlateGray',
+    e.target.style.boxShadow = '0px 2px 2px 2px azure'}
+    else if(e.type === 'mouseleave') {e.target.style.border = '3px solid rgba(255, 255, 255, 0.8)', 
+    e.target.style.background = 'rgba(0, 0, 0, 0.250)', e.target.style.boxShadow = 'none'
+    }
 }
 
 const closeModal = (e) => {

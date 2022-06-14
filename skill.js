@@ -25,14 +25,19 @@ let html1 = document.querySelector('#html1')
 let js1 = document.querySelector('#js1')
 let react1 = document.querySelector('#react1')
 
-js.addEventListener('mouseenter', setColorBorder)
-js.addEventListener('mouseleave', setColorBorder)
+const setColorBorderModal = (e) => {
+    if(e.type === 'mouseenter') {e.target.style.border = '3px solid orange'}
+    else if(e.type === 'mouseleave') {e.target.style.border = '3px solid rgba(255, 255, 255, 0.8)'}
+}
 
-react.addEventListener('mouseenter', setColorBorder)
-react.addEventListener('mouseleave', setColorBorder)
+js.addEventListener('mouseenter', setColorBorderModal)
+js.addEventListener('mouseleave', setColorBorderModal)
 
-htmlcss.addEventListener('mouseenter', setColorBorder)
-htmlcss.addEventListener('mouseleave', setColorBorder)
+react.addEventListener('mouseenter', setColorBorderModal)
+react.addEventListener('mouseleave', setColorBorderModal)
+
+htmlcss.addEventListener('mouseenter', setColorBorderModal)
+htmlcss.addEventListener('mouseleave', setColorBorderModal)
 
 
 htmlcss.addEventListener('mouseenter', () => {
