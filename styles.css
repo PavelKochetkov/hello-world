@@ -261,9 +261,25 @@ html, body {
     #container {
         display: block;
         margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     #about, #skill {
         margin-bottom: 10px;
     } 
+
+    #modal-content {
+        width: 250px;
+        height: 400px;
+    }
+
+    #modal-header {
+        position: fixed;
+        width: 224px;
+    }
+
+    #htmlcss {
+        margin-top: 50px;
+    }
 }
