@@ -7,7 +7,7 @@ function Skill() {
         <div id="skillComment"><h3>Изучаемые технологии на данный момент</h3></div>
         <div id="html1" style = {{display:'none'}}><h3>HTML5/CSS3 (Курс пройден)</h3></div>
         <div id="js1" style = {{display:'none'}}><h3>JavaScript (Курс пройден)</h3></div>
-        <div id="react1" style = {{display:'none'}}><h3>React (В процессе изучения...)</h3></div>     
+        <div id="react1" style = {{display:'none'}}><h3>React (Курс пройден)</h3></div>     
     </div>)
 }
 
